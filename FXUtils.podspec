@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FXUtils"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "FX工具类"
 
   s.homepage     = "https://github.com/zqw87699/FXUtils"
@@ -12,6 +12,10 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/zqw87699/FXUtils.git", :tag => "#{s.version}"}
 
   s.platform     = :ios, "7.0"
+
+  s.source_files  = "Classes/*.{h,m}"
+
+  s.public_header_files = "Classes/*.h"
 
 s.subspec 'Utils' do |utils|
     utils.source_files = 'Classes/Utils/*'
