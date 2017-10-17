@@ -12,6 +12,7 @@
 #import "FXDateUtils.h"
 #import "FXSwizzleUtils.h"
 #import "FXFileUtils.h"
+#import "FXStringUtils.h"
 #import "FXExtension.h"
 #import "FXSingleton.h"
 
