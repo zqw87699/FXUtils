@@ -9,7 +9,7 @@
 #ifndef FXExtension_h
 #define FXExtension_h
 #import "UIScrollView+FXExtension.h"
-
+#import "NSObject+FXExtension.h"
 #import "NSArray+FXExtension.h"
 #import "NSDictionary+FXExtension.h"
 
